@@ -33,7 +33,7 @@
 			<TextBlock Grid.Row="1" Grid.Column="0" Margin="10">Fahrenheit</TextBlock>
 			<TextBox Grid.Row="1" Grid.Column="1" Margin="0 5" Text="0"/>
 		</Grid>
-		<Button HorizontalAlignment="Center">Calculate</Button>
+		<Button HorizontalAlignment="Center" Click="Button_OnClick">Calculate</Button>
 	</StackPanel>
 
 </Window>
